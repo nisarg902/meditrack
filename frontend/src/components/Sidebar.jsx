@@ -8,7 +8,6 @@ function Sidebar() {
         { to: '/', icon: '📊', label: 'Dashboard' },
         { to: '/medicines', icon: '💊', label: 'Medicines' },
         { to: '/patients', icon: '👤', label: 'Patients' },
-          { to: '/bills', icon: '🧾', label: 'Bills' }
     ];
 
     return (

@@ -40,6 +40,7 @@ function Dashboard() {
             <h2 style={styles.title}>📊 Dashboard</h2>
             
             <div style={styles.grid}>
+                {/* 💊 Medicines Card */}
                 <div style={{...styles.card, ...styles.cardPurple}}>
                     <div style={styles.cardIcon}>💊</div>
                     <h3 style={styles.cardTitle}>Medicines</h3>
@@ -49,6 +50,7 @@ function Dashboard() {
                     </small>
                 </div>
                 
+                {/* 👤 Patients Card */}
                 <div style={{...styles.card, ...styles.cardBlue}}>
                     <div style={styles.cardIcon}>👤</div>
                     <h3 style={styles.cardTitle}>Patients</h3>
@@ -56,6 +58,7 @@ function Dashboard() {
                     <small style={styles.cardSmall}>Total registered patients</small>
                 </div>
                 
+                {/* 💰 Revenue Card */}
                 <div style={{...styles.card, ...styles.cardGold}}>
                     <div style={styles.cardIcon}>💰</div>
                     <h3 style={styles.cardTitle}>Revenue</h3>
